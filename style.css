@@ -1,0 +1,240 @@
+.home{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.226)),url("https://images.pexels.com/photos/14764071/pexels-photo-14764071.jpeg");
+    height: 130vh;
+    padding-top: 20px;
+    display: flex;
+    padding-bottom: 0%;
+
+    
+}
+.home img{
+    margin-top: 8%;
+}
+.home p{
+    font-size:78px;
+    color: rgb(10, 18, 24);
+    color: aliceblue;
+    width: 50%;
+}
+.home p span{
+    color: gold;
+}
+.home h1{
+    font-size: 40px;
+    color: white;
+}
+h1{
+    text-align: center;
+    padding: 3%;
+    font-size: 40px;
+    text-decoration: underline;
+}
+.car-detail img{
+    width: 900px;
+}
+
+.car-grid{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+
+  
+}
+.car-detail{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.447);
+    justify-content: space-around;
+      padding: 2%;
+        background-color:whitesmoke;
+    width: 27%;
+
+}
+.cars{
+    justify-content: space-around;
+}
+.details{
+    text-align: center;
+}
+button{
+    padding: 5%;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(0, 200, 255);
+    color: whitesmoke;
+    border-radius: 20px;
+    border: none;
+}
+
+.button{
+  padding: 12px 28px;
+  background: #00ffae;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 255, 140, 0.4);
+}
+
+.form-container{
+    width:350px;
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 15px 30px rgba(0,0,0,0.2);
+}
+
+h2{
+    text-align:center;
+    margin-bottom:20px;
+    color:#0f172a;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ddd;
+    border-radius:8px;
+    outline:none;
+}
+#form{
+    margin-top: 10%;
+}
+.form-container{
+    margin-top: 18%;
+    width: 70%;
+    height: 70%;
+    margin: auto;
+}
+
+input:focus{
+    border-color:#ff6b00;
+}
+.img img{
+    width: 300px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#ff6b00;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    transform:translateY(-4px);
+    box-shadow:0 8px 20px rgba(255,107,0,.4);
+}
+
+p{
+    text-align:center;
+    margin-top:15px;
+    font-size:14px;
+}
+
+a{
+    color:#ff6b00;
+    text-decoration:none;
+}
+
+#contact{
+    width: 90%;
+    margin: 50px auto;
+    padding: 30px;
+    background: #111;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+#contact h2{
+    font-size: 2rem;
+    color: gold;
+    margin-bottom: 20px;
+}
+
+#contact p{
+    font-size: 1.1rem;
+    margin: 12px 0;
+    transition: 0.3s;
+}
+
+#contact p:hover{
+    color: gold;
+}
+
+.socials{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.socials a{
+    text-decoration: none;
+    color: white;
+    background: #222;
+    padding: 12px 20px;
+    transition: .3s ease;
+    font-weight: 500;
+}
+
+.socials a:hover{
+    background: gold;
+    color: #111;
+    transform: translateY(-5px);
+}
+.footer{
+    background: #000;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-content h3{
+    color: gold;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.footer-content p{
+    color: #ccc;
+    margin: 10px 0;
+}
+
+.footer-links{
+    margin: 20px 0;
+}
+
+.footer-links a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: .3s;
+}
+
+.footer-links a:hover{
+    color: gold;
+}
+
+.copyright{
+    border-top: 1px solid #333;
+    padding-top: 15px;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
